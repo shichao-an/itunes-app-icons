@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import itunes
 import os
 from PIL import Image
@@ -28,7 +30,7 @@ class Icon(object):
         _size = size, size
         i = Image.open(temp_path)
         im = i.resize(_size, Image.ANTIALIAS)
-        im.save(path)
+        im.save(path, quality=100)
 
 
 def download(path, url):
