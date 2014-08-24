@@ -31,6 +31,7 @@ class Icon(object):
         i = Image.open(temp_path)
         im = i.resize(_size, Image.ANTIALIAS)
         im.save(path, quality=100)
+        os.remove(temp_path)
 
 
 def download(path, url):
