@@ -3,8 +3,8 @@ iTunes App Icons
 
 itunes-app-icons is a tool to download official app icons from App Store on iTunes.
 
-Requirement
-~~~~~~~~~~~
+Requirements
+~~~~~~~~~~~~
 
 * python-itunes (latest repo)::
 
